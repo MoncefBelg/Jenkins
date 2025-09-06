@@ -4,9 +4,7 @@ import Utils.CommonMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.CommonMethods;
 
-import static Utils.CommonMethods.driver;
 
 public class JobPage extends CommonMethods {
     @FindBy(id="btnAdd")

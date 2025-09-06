@@ -8,8 +8,7 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Assert;
-import utils.APIConstants;
-import utils.APIPayloadConstants;
+
 
 import java.util.List;
 import java.util.Map;

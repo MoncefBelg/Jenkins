@@ -9,7 +9,7 @@ public class APIConstants {
     public static final String GET_ONE_EMPLOYEE_URI = baseURI+"/getOneEmployee.php";
     public static final String UPDATE_EMPLOYEE_URI = baseURI+"/updateEmployee.php";
     public static final String GENERATE_TOKEN_URI = baseURI+"/generateToken.php";
-    //similarly you can add endpoint for remainings
+    //similarly you can add endpoint for remaining
 
     //we need to add headers as well
     public static final String HEADER_CONTENT_TYPE_KEY = "Content-Type";

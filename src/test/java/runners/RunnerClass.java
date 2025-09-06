@@ -3,7 +3,8 @@ package runners;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
-
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import org.testng.annotations.DataProvider;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         //features we use to provide the path of all the feature files
@@ -24,6 +25,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/failed.txt"}
 )
 
-public class RunnerClass {
+public class RunnerClass extends AbstractTestNGCucumberTests{
+
 
 }

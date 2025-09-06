@@ -5,7 +5,7 @@ Feature: Adding new jobs in HRMS
     And user clicks on login button
     Then user is successfully logged in the application
 
-  @addJob
+  @addJob @test
   Scenario: User adds a new job
     * user clicks on the admin button
     * user click on the job
